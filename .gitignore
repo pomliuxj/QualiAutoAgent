@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.whl
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Env (包含密钥，不提交)
+.env
+
+# Logs
+*.log
+log/
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Test
+*.tmp
+.pytest_cache/
+.coverage
+htmlcov/
