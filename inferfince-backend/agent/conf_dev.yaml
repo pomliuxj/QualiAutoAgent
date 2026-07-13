@@ -9,7 +9,7 @@
 BASIC_MODEL:
   base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
   model: "qwen3.7-max-2026-05-20"
-  api_key: "sk-58167131efd040868e3cabd9fdd452ec"
+  api_key:
   max_retries: 3 # Maximum number of retries for LLM calls
   extra_body:
     "enable_thinking": true
@@ -20,5 +20,5 @@ BASIC_MODEL:
 EMBEDDING_MODEL:
   model: "text-embedding-v3"
   base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
-  api_key: "sk-58167131efd040868e3cabd9fdd452ec"
+  api_key:
   max_retries: 3
