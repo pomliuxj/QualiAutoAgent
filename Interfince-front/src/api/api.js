@@ -2,7 +2,7 @@ import axios from 'axios';
 
 
 // export const test = 'http://120.27.209.105:19000';
-export const test = 'http://127.0.0.1:8000';
+export const test = '';
 
 //  调试接口
 export const testApi = (headers, params) => {
@@ -166,7 +166,7 @@ export const Getcasedatabase = (headers, params) => {
 export const Testruncasedata = (headers, params) => {
     return axios.post(`${test}/api/automation/global_testrundatacase`, params, {headers}).then(res => res.data); };
 // AI 自动生成测试用例 SSE 接口
-export const aiTestCase = `http://127.0.0.1:9000/api/chat/test_case`;
+export const aiTestCase = `/agent/api/chat/test_case`;
 
 export const staticdata={
     request: [{value: 'GET', label: 'GET'},

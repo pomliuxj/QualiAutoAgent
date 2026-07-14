@@ -1,0 +1,55 @@
+# ========== Git ==========
+.git/
+.gitignore
+.gitattributes
+
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.whl
+.venv/
+venv/
+env/
+# .env included — loaded by entrypoint at container startup
+
+# ========== Node / Frontend ==========
+node_modules/
+**/node_modules/
+
+# ========== IDE / Editor ==========
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+*~
+
+# ========== OS ==========
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ========== Docker ==========
+Dockerfile
+docker-compose.yml
+.dockerignore
+**/.dockerignore
+
+# ========== Logs ==========
+*.log
+log/
+
+# ========== Test / Coverage ==========
+*.tmp
+*.bak
+.pytest_cache/
+htmlcov/
+.coverage
+.nyc_output/
+
+# ========== Docs / Markdown ==========
+*.md
+!README.md
